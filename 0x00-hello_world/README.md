@@ -12,3 +12,6 @@ A script that generates the assembly code of a C code and save it in an output f
 3-name
 A script that compiles a C file and creates an executable named cisfun.
 
+4-puts.c
+A C program that prints an exact statement using the puts function.
+

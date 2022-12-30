@@ -1,11 +1,11 @@
 This folder contains the following files:
 
-0-positive_or_negative.c: This program will assign a random number
-			  to the variable n each time it is executed and prints
-			  whether the number stored in the variable n is
-			  positive or negative.
+0-positive_or_negative.c: C program that prints whether a randomly generated
+			  number is positive or negative, followed by a new line
+			  .
 
-1-last_digit.c: This program will assign a random number to the variable n each
-		time it is executed and prints the last digit of the number
-		stored in the variable n.
+1-last_digit.c: C program that prints the last digit of a randomly generated
+		number, followed by a new line.
 
+2-print_alphabet.c: C program that prints the alphabet in lowercase, followed by
+		    a new line, using only the putchar function exactly twice.

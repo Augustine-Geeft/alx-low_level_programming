@@ -38,3 +38,15 @@ This folder contains the following files:
 		numbers, using only the putchar function exactly four times
 		without any variables of type char.
 
+100-print_comb3.c: C program that prints all possible different combinations of
+		   two digits using only the putchar function exactly five times
+		   without any variables of type char.
+
+101-print_comb4.c: C program that prints all possible different combinations of
+		   three digits using only the putchar function exactly six
+		   times without any variables of type char.
+
+102-print_comb5.c: C program that prints all possible combinations of two-digit
+		   numbers using only the putchar function exactly eight times
+		   without any variables of type char.
+

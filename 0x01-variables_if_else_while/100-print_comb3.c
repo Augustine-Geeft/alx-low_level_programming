@@ -10,15 +10,16 @@ int main(void)
 
 	for (m = 0; m < 9; m++)
 	{
-		for (n = 1; n < 10; n++)
+		for (n = m + 1; n < 10; n++)
 		{
 			putchar(m + '0');
 			putchar(n + '0');
-			if (m < 9 && n < 9)
+			if (m == 8 && n == 9)
 			{
-				putchar(',');
-				putchar(' ');
+				continue;
 			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');

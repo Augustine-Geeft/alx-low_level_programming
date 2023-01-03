@@ -9,7 +9,6 @@ int _abs(int n)
 {
 	int c;
 
-	c = abs(n);
-	_putchar(c);
-	return (0);
+	n = abs(n);
+	return (n);
 }

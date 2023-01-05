@@ -9,3 +9,5 @@ This folder conatuns the following files:
 4. 3-factorial.c
 
 5. 4-pow_recursion.c
+
+6. 5-sqrt_recursion.c

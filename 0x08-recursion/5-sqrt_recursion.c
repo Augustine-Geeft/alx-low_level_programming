@@ -6,9 +6,6 @@
  */
 int _sqrt_recursion(int n)
 {
-	int root;
-
-	root = 0;
 	if (n < 0)
 	{
 		return (-1);
@@ -19,6 +16,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (find_sqrt(n, root));
+		return (_sqrt(1, n));
 	}
 }

@@ -6,25 +6,38 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n <= 0)
+	if (n < 0)
+	{
 		return (-1);
-	return (int natural_root(1, n));
+	}
+	else
+	{
+		return (square_root_recursion(n, (n / 2) + 1));
+	}
 }
 
 /**
- * natural_root - a function that returns the value of
- * square root of a given number.
- * @x: the value of square root of n
- * @n: a given number
- *
- * Return: return x, otherwise return -1
+ * square_root_recursion - determines square root of number, if one exists
+ * @n: input number to determine square root of
+ * @guess: input guess as to what square root might be
+ * Return: natural square root of n, or -1 if n does not have natural sqrt
  */
 
-int natural_root(int x, int n)
+int square_root_recursion(int n, int guess)
 {
-	if (x * x > n)
+	int newguess;
+
+	newguess = ((n / guess) + 1 + guess) / 2;
+	if ((n / guess) == guess && n % guess == 0)
+	{
+		return (guess);
+	}
+	else if (newguess == guess)
+	{
 		return (-1);
-	if (x * x == n)
-		return (x);
-	return (natural_root(x + 1, n));
+	}
+	else
+	{
+		return (square_root_recursion(n, newguess));
+	}
 }

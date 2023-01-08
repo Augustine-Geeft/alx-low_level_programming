@@ -8,7 +8,7 @@ int _sqrt_recursion(int n)
 {
 	if (n <= 0)
 		return (-1);
-	return (natural_root(1, n));
+	return (_sqrt_recursion(1, n));
 }
 
 /**
